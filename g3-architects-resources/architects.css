@@ -1,17 +1,16 @@
-/* -----work sens google font added here----- */
-/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap'); */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Work Sans", serif;
 }
-
+/* -------------------navbar style start here --------------------- */
 nav.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 36px 255px;
+    margin: 36px 200px;
 }
 
 ul.menu-wrapper {
@@ -28,4 +27,42 @@ nav.nav h2 {
     font-size: 40px;
     font-weight: bold;
     color: #131313;
+}
+/* -----------------------bennar section style start here---------------------- */
+.bennar-section {
+    margin: 0px 200px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.bennar-section img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.bennar-section h1 {
+    font-size: 64px;
+    color: #131313;
+    font-weight: bold;
+}
+
+.bennar-section p {
+    font-size: 16px;
+    color: #727272;
+    margin: 25px;
+}
+
+button.btn {
+    padding: 20px 25px;
+    background: #FF900E;
+    border: none;
+    transition: .5s;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+button.btn:hover {
+    background: #202121;
 }
