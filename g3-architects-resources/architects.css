@@ -111,3 +111,65 @@ span.of-our {
     color: #131313;
     font-weight: bold;
 }
+/* ----------------------------love-and-enjoy-section style start here------------------ */
+section.love-and-enjoy-section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 100px 0px 30px 0px;
+}
+
+.love-and-enjoy-text-wrapper h1 {
+    font-size: 45px;
+    color: #131313;
+    font-weight: bold;
+    padding-left: 20px;
+    border-left: 5px solid #FF900E;
+    margin: 10px 0px;
+}
+
+.love-and-enjoy-text-wrapper> p {
+    font-size: 16px;
+    margin: 24px 0px;
+    color: #727272;
+}
+
+.love-text-box {
+    margin: 23px 0px;
+    box-shadow: 0px 1px 5px #dbd9d9;
+    padding: 15px;
+}
+
+.love-text-box h3 {
+    color: #131313;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.love-text-box p {
+    font-size: 16px;
+    color: #727272;
+}
+
+.love-and-enjoy-img-wrapper img {
+    width: 100%;
+}
+
+.love-and-enjoy-img-wrapper {
+    width: 45%;
+}
+
+.love-and-enjoy-text-wrapper {
+    width: 44%;
+}
+
+.btn.\31 0years {
+    background: #FF900E;
+    border-radius: 10px;
+    position: relative;
+    margin-top: -40px;
+    margin-left: -63px;
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+}
