@@ -1,0 +1,31 @@
+/* -----work sens google font added here----- */
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", serif;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px 255px;
+}
+
+ul.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    color: #424242;
+}
+
+nav.nav h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #131313;
+}
