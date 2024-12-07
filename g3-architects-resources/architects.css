@@ -6,11 +6,15 @@
     font-family: "Work Sans", serif;
 }
 /* -------------------navbar style start here --------------------- */
+#header-section{
+    background: #FFF4E7;
+}
 nav.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 36px 200px;
+    margin: 0px 200px;
+    padding-top:50px
 }
 
 ul.menu-wrapper {
