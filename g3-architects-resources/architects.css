@@ -70,3 +70,44 @@ button.btn {
 button.btn:hover {
     background: #202121;
 }
+/* ------------------------main content box style here-------------------- */
+main#main-content-box {
+    margin: 0px 200px;
+}
+/* -------------------------features seciton style start here------------- */
+section.features-section {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    margin: 40px 35px;
+    justify-content: space-around;
+}
+.features-img-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.features-img-wrapper img {
+    width: 225px;
+}
+.features-text-wrapper h2 {
+    font-size: 45px;
+    font-weight: 300;
+    color: #727272;
+    margin: 15px 0px;
+}
+button.features-btn {
+    margin-top: 20px;
+}
+.features-text-wrapper p {
+    color: #727272;
+    font-size: 16px;
+}
+span.features {
+    color: #FF900E;
+    font-weight: bold;
+}
+span.of-our {
+    color: #131313;
+    font-weight: bold;
+}
