@@ -231,3 +231,12 @@ section.sponsore-section {
     filter: grayscale(1);
     width: 128px;
 }
+/* ----------------------------footer style start here-------------------- */
+footer.footer {
+    margin: 40px 200px 100px 200px;
+    text-align: center;
+    padding: 30px 0px;
+    background: #FFF4E7;
+    color: #424242;
+    border-radius: 5px;
+}
