@@ -317,3 +317,8 @@ footer.footer {
     color: #424242;
     border-radius: 5px;
 }
+@media screen and (max-width:576px){
+    footer.footer {
+        margin: 40px 5px 100px 5px;
+    }
+}
