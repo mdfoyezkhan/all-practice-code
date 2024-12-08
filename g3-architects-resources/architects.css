@@ -179,3 +179,51 @@ section.love-and-enjoy-section {
     font-weight: bold;
 
 }
+/* ---------------------------------some facts section style start here----------------- */
+section.some-facts-section h2 {
+    color: #131313;
+    font-size: 45px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+section.some-facts-section > p {
+    width: 600px;
+    line-height: 25px;
+    color: #727272;
+    font-size: 16px;
+}
+
+section.some-facts-section {
+    margin: 85px 0px;
+}
+
+.some-facts-single-box-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 76px;
+    align-items: center;
+}
+
+.some-facts-single-box {
+    text-align: center;
+    border: 1px solid #FF900E;
+    padding: 20px;
+    width: 175px;
+    border-radius: 10px;
+}
+
+.some-facts-single-box img {
+    width: 30px;
+}
+
+.some-facts-single-box h2 {
+    font-size: 45px;
+    color: #727272;
+}
+
+.some-facts-single-box p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 600;
+}
