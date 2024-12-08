@@ -294,6 +294,20 @@ section.sponsore-section {
     filter: grayscale(1);
     width: 128px;
 }
+@media screen and (max-width:576px){
+    section.sponsore-section p{
+        width: 100%;
+        padding: 0px;
+    }
+    .sponsore-companys-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 32px;
+
+    }
+}
 /* ----------------------------footer style start here-------------------- */
 footer.footer {
     margin: 40px 200px 100px 200px;
