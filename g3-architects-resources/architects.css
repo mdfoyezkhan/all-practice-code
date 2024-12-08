@@ -30,6 +30,14 @@ nav.nav h2 {
     font-weight: bold;
     color: #131313;
 }
+@media screen and (max-width:576px) {
+    nav.nav{
+        flex-direction: column;
+        text-align: center;
+        margin: 0px 100px;
+        gap: 20px;
+    }
+}
 /* -----------------------bennar section style start here---------------------- */
 .bennar-section {
     margin: 0px 200px;
@@ -62,6 +70,14 @@ button.btn {
 }
 button.btn:hover {
     background: #202121;
+}
+@media screen and (max-width:576px){
+    .bennar-section{
+        margin: 0px;
+    }
+    .bennar-section h1 {
+        font-size: 45px;
+    }
 }
 /* ------------------------main content box style here-------------------- */
 main#main-content-box {
