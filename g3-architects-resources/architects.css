@@ -163,7 +163,7 @@ section.love-and-enjoy-section {
     width: 44%;
 }
 
-.btn.\31 0years {
+.years {
     background: #FF900E;
     border-radius: 10px;
     position: relative;
@@ -172,4 +172,10 @@ section.love-and-enjoy-section {
     padding: 30px;
     width: 200px;
     text-align: center;
+    color: #FFFFFF;
+}
+.years h1{
+    font-size: 35px;
+    font-weight: bold;
+
 }
