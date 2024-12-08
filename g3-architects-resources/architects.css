@@ -83,6 +83,11 @@ button.btn:hover {
 main#main-content-box {
     margin: 0px 200px;
 }
+@media screen and (max-width:576px){
+    main#main-content-box{
+        margin: 0px;
+    }
+}
 /* -------------------------features seciton style start here------------- */
 section.features-section {
     gap: 50px;
@@ -120,6 +125,12 @@ span.of-our {
     color: #131313;
     font-weight: bold;
 }
+@media screen and (max-width:576px) {
+    section.features-section{
+        flex-direction: column;
+        
+    }
+} 
 /* ----------------------------love-and-enjoy-section style start here------------------ */
 section.love-and-enjoy-section {
     display: flex;
