@@ -38,6 +38,11 @@ nav.nav h2 {
         gap: 20px;
     }
 }
+@media screen and (min-width:576px)and (max-width:992px){
+    nav.nav{
+        margin: 0px 50px;
+    }
+}
 /* -----------------------bennar section style start here---------------------- */
 .bennar-section {
     margin: 0px 200px;
@@ -79,6 +84,11 @@ button.btn:hover {
         font-size: 45px;
     }
 }
+@media screen and (min-width:576px)and (max-width:992px){
+    .bennar-section{
+        margin: 0px 50px;
+    }
+}
 /* ------------------------main content box style here-------------------- */
 main#main-content-box {
     margin: 0px 200px;
@@ -86,6 +96,11 @@ main#main-content-box {
 @media screen and (max-width:576px){
     main#main-content-box{
         margin: 0px;
+    }
+}
+@media screen and (min-width:576px)and (max-width:992px){
+    main#main-content-box {
+        margin: 0px 50px;
     }
 }
 /* -------------------------features seciton style start here------------- */
@@ -320,5 +335,10 @@ footer.footer {
 @media screen and (max-width:576px){
     footer.footer {
         margin: 40px 5px 100px 5px;
+    }
+}
+@media screen and (min-width:576px)and (max-width:992px){
+    footer.footer {
+        margin: 40px 50px 100px 50px;
     }
 }
